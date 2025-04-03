@@ -1,4 +1,4 @@
-﻿using System.Security.Cryptography;
+using System.Security.Cryptography;
 using System.Text;
 using NLightning.Bolts.BOLT8.Constants;
 using NLightning.Bolts.BOLT8.States;
@@ -10,7 +10,7 @@ namespace ActTwoFuzzer;
 
 internal abstract class ActTwoFuzzer
 {
-    private static void Main(string[] args)
+    private static void Main()
     {
         Fuzzer.OutOfProcess.Run(stream =>
         {
